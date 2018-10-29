@@ -1,0 +1,8 @@
+#
+#Mon Oct 29 22:46:18 CST 2018
+com.xmw.spring.cloud.server.aop.ServerControllerAspect=org.springframework.stereotype.Component
+com.xmw.spring.cloud.server.web.mvc.WebMvcConfig=org.springframework.stereotype.Component
+com.xmw.spring.cloud.server.web.mvc.CircuitBreakerControllerAdvice=org.springframework.stereotype.Component
+com.xmw.spring.cloud.server.controller.RemoteAppEventReceiverController=org.springframework.stereotype.Component
+com.xmw.spring.cloud.server.controller.ServerController=org.springframework.stereotype.Component
+com.xmw.spring.cloud.server.SpringCloudServerApplication=org.springframework.stereotype.Component,com.xmw.spring.cloud.server.SpringCloudServerApplication
