@@ -15,7 +15,7 @@ public class CompletableFutureDemo {
             PrintUtil.println("第一步返回hello");
             return "hello";
         }).thenApplyAsync(result -> {  // 异步?
-            PrintUtil.println("第一步 + world");
+            PrintUtil.println("第二步 + world");
             return result + ", World.";
         }).thenAccept(PrintUtil::println)
                 .whenComplete((v, error) -> {

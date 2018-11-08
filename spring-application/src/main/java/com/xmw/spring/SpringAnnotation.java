@@ -18,8 +18,10 @@ public class SpringAnnotation {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
         // 注入
         context.register(SpringAnnotation.class);
-        // 刷新容器
+        // 启动上下文
         context.refresh();
+        // 没有加@Configuration com.xmw.spring.SpringAnnotation@32464a14
+        // 加@Configuration com.xmw.spring.SpringAnnotation$$EnhancerBySpringCGLIB$$c09d6f0c@15b204a1
         System.out.println(context.getBean(SpringAnnotation.class));
     }
 }

@@ -21,7 +21,7 @@ public class Application {
 //                .run(args);
 
         SpringApplication springApplication = new SpringApplication();
-////        SpringApplication springApplication = new SpringApplication(Application.class);
+//        SpringApplication springApplication = new SpringApplication(Application.class);
         Map<String, Object> properties = new LinkedHashMap<>();
         properties.put("server.port", 8080);
         springApplication.setDefaultProperties(properties);
