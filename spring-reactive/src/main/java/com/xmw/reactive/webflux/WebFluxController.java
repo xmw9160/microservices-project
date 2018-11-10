@@ -12,7 +12,7 @@ import reactor.core.publisher.Mono;
 @RestController
 public class WebFluxController {
 
-    @RequestMapping("")
+    @RequestMapping("/mono")
     public Mono<String> index() {
         // 执行计算
         PrintUtil.println("执行计算");

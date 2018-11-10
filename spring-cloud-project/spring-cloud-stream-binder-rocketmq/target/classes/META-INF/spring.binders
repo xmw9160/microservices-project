@@ -1,2 +1,0 @@
-rocketmq=\
-com.xmw.stream.binder.rocketmq.RocketMQMessageChannelBinderConfiguration
